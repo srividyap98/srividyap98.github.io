@@ -16,6 +16,7 @@
     <nav aria-label="Primary">
       <a href="#work">Work</a>
       <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
       <a href="#skills">Skills</a>
       <a href="#education">Education</a>
       <a href="#contact">Contact</a>
@@ -126,6 +127,28 @@
           <p>Movie-booking web application with a React front end and a separate backend layer. The repository includes application code, backend assets, booking data, and a production build.</p>
           <div class="tags"><span>React</span><span>JavaScript</span><span>REST</span><span>Node ecosystem</span></div>
           <a href="https://github.com/srividyap98/KS-Movies" target="_blank" rel="noreferrer">Explore repository ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section shell">
+      <div class="section-head">
+        <span>Research</span>
+        <h2>Research in progress at the intersection of agentic AI and production reliability.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project featured">
+          <div class="project-kicker">Working Paper · Agentic AI · AIOps · Trustworthy ML</div>
+          <h3>Risk-Gated Evidence-Verified Multi-Agent Incident Remediation with Selective Human Oversight</h3>
+          <p>This work studies selective autonomy in LLM-based incident remediation: when should an AI-generated remediation be trusted, and when should the system escalate to a human because operational risk is high or retrieved evidence does not sufficiently support the proposed action?</p>
+          <div class="architecture">Retrieve Evidence → Build Context → Assess Incident Risk → Generate Remediation → Verify Claims → Auto-Resolve or Escalate</div>
+          <p><strong>Research questions:</strong> whether combined risk and grounding gates reduce unsafe or unsupported remediation; whether calibrated escalation improves the safety-versus-automation trade-off; whether hierarchical retrieval improves evidence grounding; and how the system behaves under missing, irrelevant, contradictory, or misleading evidence.</p>
+          <p><strong>Experimental design:</strong> compare a direct LLM, single-agent RAG, ungated multi-agent RAG, risk-only gating, grounding-only gating, and the proposed dual-gated system using paired evaluation and controlled ablations.</p>
+          <p><strong>Evaluation:</strong> root-cause accuracy, remediation correctness, unsafe-remediation rate, unsupported claims, human-escalation rate, safe automation coverage, calibration, latency, token usage, and inference cost. Quantitative claims will be added only after the evaluation protocol is frozen and experiments are executed.</p>
+          <div class="tags"><span>LangGraph</span><span>RAG</span><span>AWS Bedrock</span><span>Human-in-the-Loop</span><span>Grounding</span><span>Calibration</span><span>AIOps</span><span>Reliability</span></div>
+          <a href="https://github.com/srividyap98/incident-remediation-ai/blob/research-paper/paper/MANUSCRIPT.md" target="_blank" rel="noreferrer">Read manuscript draft ↗</a><br />
+          <a href="https://github.com/srividyap98/incident-remediation-ai/blob/research-paper/paper/RESEARCH_PLAN.md" target="_blank" rel="noreferrer">View research plan ↗</a><br />
+          <a href="https://github.com/srividyap98/incident-remediation-ai/tree/research-paper" target="_blank" rel="noreferrer">Explore research branch ↗</a>
         </article>
       </div>
     </section>
